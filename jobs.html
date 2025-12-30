@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JobSpot</title>
+  <link rel="stylesheet" type="text/css" href="jobs.css">
+</head>
+<body>
+  <h1 style="font-family: 'Georgia', sans-serif; font-size: 2em; color: #4c7aaf;">JobSpot</h1>
+  <form>
+    <label for="keywords">Keywords:</label>
+    <input type="text" id="keywords" name="keywords">
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+    <button onclick="updateJobsList(jobs)" type="button" id="filter-button">Filter</button>
+  </form>
+  <div class="featured-jobs">
+  </div>
+  <div id="job-listings">
+  <div>
+    <h3>Software Engineer</h3>
+    <p>Acme Inc.</p>
+    <p>San Francisco, CA</p>
+    <p>
+       We are seeking a skilled software engineer to join our team. The ideal candidate will have experience with Java and be proficient in agile development methodologies.
+    </p>
+    <a href="https://acme.com/careers/software-engineer">Apply Now</a>
+  </div>
+  <div>
+    <h3>DevOps Engineer</h3>
+    <p>ABC Company</p>
+    <p>Seattle, WA</p>
+    <p>
+        We are seeking a DevOps engineer to improve our deployment processes and infrastructure. The ideal candidate will have experience with AWS and Terraform.
+    </p>
+    <a href="https://abc.com/careers/devops-engineer">Apply Now</a>
+  </div>
+  <div>
+    <h3>Data Scientist</h3>
+    <p>Def Tech</p>
+    <p>San Francisco, CA</p>
+    <p>
+        We are seeking a data scientist to help us analyze and interpret large datasets. The ideal candidate will have experience with Python and machine learning algorithms.
+    </p>
+    <a href="https://abc.com/careers/data-scientist">Apply Now</a>
+  </div>
+  <div>
+    <h3>Product Manager</h3>
+    <p>Ghi Inc.</p>
+    <p>New York, NY</p>
+    <p>
+        We are seeking a product manager to lead the development of our new software product. The ideal candidate will have experience with agile development methodologies and be a strong communicator.
+    </p>
+    <a href="https://abc.com/careers/product-manager">Apply Now</a>
+  </div>
+  <div>
+      <h3>Data Scientist</h3>
+      <p>XYZ Corporation</p>
+      <p>New York, NY</p>
+      <p>
+        We are seeking a data scientist to develop and maintain our predictive models. The ideal candidate will have experience with Python, machine learning, and statistics.
+      </p>
+      <a href="https://xyzcorp.com/careers/data-scientist">Apply Now</a>
+  </div>
+  <div>
+      <h3>Frontend Developer</h3>
+      <p>123 Startup</p>
+      <p>Los Angeles, CA</p>
+      <p>
+        We are seeking a frontend developer to work on our web applications. The ideal candidate will have experience with React, Redux, and CSS frameworks.
+      </p>
+      <a href="https://123startup.com/careers/frontend-developer">Apply Now</a>
+  </div>
+</div>    
+      </body>
+      <script src="jobs.js"></script>
+      </html>
+      
+      
+      
+      
+      
+      

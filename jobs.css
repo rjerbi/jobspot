@@ -1,0 +1,67 @@
+/* Main heading */
+h1 {
+  text-align: center;
+  background-color: hsl(25, 26%, 82%);
+  font-family: 'Georgia', sans-serif;
+  font-size: 2em;
+  color: #4c7aaf;
+  margin-bottom: 1em;
+}
+
+/* Form inputs */
+form input {
+  margin-right: 1em;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: none;
+  box-shadow: 0 0 0.25em #ccc;
+}
+
+/* Form button */
+form button {
+  background-color: #4c7aaf;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: none;
+  cursor: pointer;
+}
+
+/* Featured jobs section */
+.featured-jobs {
+  margin-bottom: 1em;
+}
+
+/* Job listing */
+div {
+  background-color: hsl(25, 26%, 82%);
+  border-radius: 0.25em;
+}
+
+/* Job title */
+div h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+/* Job details */
+div p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Job description */
+div p:last-child {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+/* Apply button */
+div a {
+  display: inline-block;
+  background-color: #4c7aaf;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  text-decoration: none;
+}
